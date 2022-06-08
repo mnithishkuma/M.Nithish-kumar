@@ -1,0 +1,8 @@
+const array1 = ['h', 'z', 'c'];
+const array2 = ['o', 'l', 'm'];
+const array3 = ['f', 'h', 'j', 'k']
+const array4 = ['1', '2', '3', '4',]
+const array5 = array2.concat(array4);
+
+console.log(array5);
+// expected output: Array ["a", "b", "c", "d", "e", "f"]
