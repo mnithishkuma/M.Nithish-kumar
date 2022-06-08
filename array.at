@@ -1,0 +1,15 @@
+const array1 = [12,35,765,98,345,30];
+
+let index = 2;
+
+console.log(`Using an index of ${index} the item returned is ${array1.at(index)}`);
+// expected output: "Using an index of 2 the item returned is 8"
+
+index = -2;
+
+console.log(`Using an index of ${index} item returned is ${array1.at(index)}`);
+// expected output: "Using an index of -2 item returned is 130"
+ index = 3;
+
+console.log(`Using an index of ${index} the item returned is ${array1.at(index)}`);
+ index = -3;
