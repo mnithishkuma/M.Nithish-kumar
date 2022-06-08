@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      var array1 = ['one', 'two', 'three', 'four', 'five', 'six'];
+      var array2 = ['one', 'two', 'three', 'four']
+console.log('array1:', array1);
+console.log('array2:', array2);
+
+
+var reversed = array1.reverse();
+var reversed = array2.reverse();
+console.log('reversed:', reversed);
+
+console.log('array1:', array1);
+console.log('array2:', array1);
+
+
+    </script>
+</body>
+</html>
